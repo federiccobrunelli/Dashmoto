@@ -1,0 +1,85 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main_title{
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    background-image: url(https://www.alu.com/sites/default/files/styles/full_width_mobile/public/projects/images/ALU_NY_Showroom_2880x1286_01.jpg?itok=QcSKLJVi);
+    background-position: 0%;
+    text-shadow: 2px 2px black;
+    color:white
+    
+}
+.nav{
+    position:sticky;
+    width:100%;
+    text-align: center;
+
+}
+
+.nav li{
+    font-size: 30px;
+    display: inline-block;
+    font-weight: bolder;
+    
+
+}
+
+.nav a{
+    text-decoration: none;    
+    color: black;
+    text-align: left;
+    background-color: aquamarine;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    
+}
+
+h2, h3, p{
+    padding-left: 20px;
+    margin-block-start: 10px;
+    margin-block-end: 10px; 
+}
+
+h2{
+    background-color: aquamarine;
+    padding: 2px 2px;
+  
+}
+
+
+img{
+    
+    width: 300px; 
+    padding-left: 20px;
+    margin: 0 auto;
+    
+}
+
+hr{
+    width: 96%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:black;
+    border: 0 none;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+footer{
+    
+    float: right;
+    padding: 20px;
+    font-style: italic;
+}
+
+.price{
+    font-style: oblique;
+    color: aquamarine;
+    background-color: black;
+}
